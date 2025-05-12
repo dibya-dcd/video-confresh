@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import Peer from "simple-peer";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://video-confresh.onrender.com");
 
 function App() {
   const [myID, setMyID] = useState("");
